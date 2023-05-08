@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+*{
+    margin:0;
+  padding:0;
+  box-sizing: border box;
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16;
+}
+p{
+    margin: 16px 0;
+}
+header {
+    background-color: bisque (8, 59, 126,);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: 90px;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0.4px 10px -5px #5f5f5f;
+
+}
+
+.im-fig-logo{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 75px;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    padding: 2px 4px;
+    margin: 01px 10px;
+}
+ul li{
+    padding: 16px;
+    display: inline-block;
+}
+a{
+    font-size: 26px;
+    text-decoration: none;
+    color: brown;
+}
+main{
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.foto-perfil{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    max-width: 250px;
+    object-fit: contain;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 25vh;
+    max-width: 800px;
+    margin-left: 25px;
+    padding-top: 120px;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: bisque;
+    color: brown;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 60px;
+}
+.Iconos{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 75px;
+}
+p{
+    background-color: bisque;
+    color: rgb(219, 144, 144);
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 60px;
+}  
+
+#Inicio{
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(221, 108, 131);
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 2vh;
+}
